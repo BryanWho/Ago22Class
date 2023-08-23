@@ -24,11 +24,11 @@ namespace Clase22
         {
             Console.WriteLine("Este algoritmo que genere un número aleatorio del 0 al 200, lo muestre y luego calcule y muestre el mismo número aumentado en un 30%.");
             Random rnd = new Random();
-            int num = rnd.Next(1, 200);
+            int num = rnd.Next(1, 50);
             Double num30;
-            num30 = num * 1.3;
+            num30 = num * 0.85;
             Console.WriteLine("El número aleatorio es: " + num);
-            Console.WriteLine("El número aumentado su treinta porciento es: " + num30);
+            Console.WriteLine("El número disminuido en un 15 porciento es: " + num30);
 
         }
     }
